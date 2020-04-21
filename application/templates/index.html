@@ -1,0 +1,8 @@
+{% extends "layout.html" %} {% block content %} <div class="row">
+    <div class="col-md-12 text-center">
+        <h1>Welcome to Minsak Tech Academy.</h1> {% if session['username'] %} <h3>Let's get started.</h3> {% else %} <p>Already registered? <a href="{{url_for('login') }}">Login</a></p> {% endif %} <div style="text-align:left;">
+            <h2>What Is HTML All About?</h2>
+            <p>HTML is the acronym for Hypertext Markup Language. Hypertext refers to the ability to create links to other Web pages. Markup means it's used for creating pages of formatted text, images, and other resources embedded in the page. HTML was created by Tim Berners-Lee in 1990. He also invented the term "World Wide Web" and the first Web browser, and went on to found the World Wide Web Consortium, also known as the W3C. Among other things, the W3C acts as a shepherd watching over the development of Web technologies. It provides guidelines, standards, recommendations, and education on many aspects of Web-related technology. You can find out more about the W3C at www.w3c.org. </p>
+        </div>
+    </div>
+</div> {% endblock %}

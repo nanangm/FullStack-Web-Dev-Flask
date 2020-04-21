@@ -1,0 +1,19 @@
+{
+    "editor.autoIndent": "brackets",
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "markdown"
+    ],
+    "prettier.proseWrap": "never",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.bracketSpacing": false,
+    "html.format.wrapAttributes": "preserve",
+    "html.format.preserveNewLines": false,
+    "html.autoClosingTags": false,
+    "editor.defaultFormatter": "vscode.html-language-features"
+}
